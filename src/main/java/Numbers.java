@@ -26,4 +26,9 @@ public class Numbers {
         addition = NumberOne + NumberTwo;
         return addition;
     }
+    public int substraction(){
+        int substraction;
+        substraction = NumberOne - NumberTwo;
+        return substraction;
+    }
 }
