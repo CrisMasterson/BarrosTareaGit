@@ -17,4 +17,8 @@ public class NameTest {
     public void methodReverse2(){
         assertEquals("naihtsirC",this.name.methodReverse2());
     }
+    @Test
+    public void methodMayus(){
+        assertEquals("CRISTHIAN", this.name.methodMayus3());
+    }
 }

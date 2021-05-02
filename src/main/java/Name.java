@@ -25,4 +25,9 @@ public class Name {
         }
         return methodReverse2;
     }
+    public String methodMayus3(){
+        String methodMayus3 = name.toUpperCase();
+        return methodMayus3;
+    }
 }
+
