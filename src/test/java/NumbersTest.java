@@ -16,4 +16,8 @@ public class NumbersTest {
     public void addition() {
         assertEquals(8, this.numbers.addition());
     }
+    @Test
+    public void substraction() {
+        assertEquals(8, this.numbers.substraction());
+    }
 }
