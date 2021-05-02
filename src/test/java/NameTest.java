@@ -13,4 +13,8 @@ public class NameTest {
     public void methodReturn1(){
         assertEquals(9,this.name.methodReturn1() );
     }
+    @Test
+    public void methodReverse2(){
+        assertEquals("naihtsirC",this.name.methodReverse2());
+    }
 }
