@@ -18,4 +18,11 @@ public class Name {
         int count = name.length();
         return count;
     }
+    public String methodReverse2(){
+        String methodReverse2 = "";
+        for(int i= name.length() - 1; i>=0; i--){
+            methodReverse2 += name.charAt(i);
+        }
+        return methodReverse2;
+    }
 }
