@@ -31,4 +31,9 @@ public class Numbers {
         substraction = NumberOne - NumberTwo;
         return substraction;
     }
+    public int multiplication(){
+        int multiplication;
+        multiplication = NumberOne * NumberTwo;
+        return multiplication;
+    }
 }

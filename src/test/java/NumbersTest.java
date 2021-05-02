@@ -20,4 +20,8 @@ public class NumbersTest {
     public void substraction() {
         assertEquals(8, this.numbers.substraction());
     }
+    @Test
+    public void multiplication() {
+        assertEquals(12, this.numbers.multiplication());
+    }
 }
